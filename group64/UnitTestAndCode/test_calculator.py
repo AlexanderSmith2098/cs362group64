@@ -25,7 +25,7 @@ class TestCase(unittest.TestCase):
         expected1 = 0
         input2 = -(math.pi)
         expected2 = math.sin(input2)
-        input3 = math.pi / 2
+        input3 = 99999999999
         expected3 = math.sin(input3)
         self.assertEqual(expected1, calculator.sin(input1))
         self.assertEqual(expected2, calculator.sin(input2))
@@ -37,7 +37,7 @@ class TestCase(unittest.TestCase):
         expected1 = 1
         input2 = -(math.pi)
         expected2 = -1.0
-        input3 = math.pi / 2
+        input3 = 99999999999
         expected3 = math.cos(input3)
         self.assertEqual(expected1, calculator.cos(input1))
         self.assertEqual(expected2, calculator.cos(input2))
