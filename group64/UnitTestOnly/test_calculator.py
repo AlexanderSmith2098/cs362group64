@@ -42,3 +42,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(expected1, calculator.cos(input1))
         self.assertEqual(expected2, calculator.cos(input2))
         self.assertEqual(expected3, calculator.cos(input3))
+        
+        
+if __name__ == '__main__':
+    unittest.main()
