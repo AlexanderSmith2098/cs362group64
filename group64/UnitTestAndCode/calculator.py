@@ -13,11 +13,11 @@ def square_root(x):
         return False
     return math.sqrt(x)
     
-def abs(x):
-    return None
+def absolute(x):
+    return abs(x)
     
 def sin(x):
-    return None
+    return math.sin(x)
     
 def cos(x):
-    return None
+    return math.cos(x)
