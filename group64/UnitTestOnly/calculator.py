@@ -7,7 +7,7 @@ def division(x,y):
 def square_root(x):
     return None
     
-def abs(x):
+def absolute(x):
     return None
     
 def sin(x):

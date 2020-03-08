@@ -16,9 +16,9 @@ class TestCase(unittest.TestCase):
         expected2 = 0.0000000001
         input3 = -300
         expected3 = 300
-        self.assertEqual(expected1, calculator.abs(input1))
-        self.assertEqual(expected2, calculator.abs(input2))
-        self.assertEqual(expected3, calculator.abs(input3))
+        self.assertEqual(expected1, calculator.absolute(input1))
+        self.assertEqual(expected2, calculator.absolute(input2))
+        self.assertEqual(expected3, calculator.absolute(input3))
 
     def testsin(self):
         input1 = 0
