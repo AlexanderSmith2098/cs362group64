@@ -1,11 +1,17 @@
+import math
+
 def multiplication(x,y):
-    return None
+    return x * y
     
 def division(x,y):
-    return None
+    if y == 0:
+        return False
+    return x / y
     
 def square_root(x):
-    return None
+    if x < 0:
+        return False
+    return math.sqrt(x)
     
 def abs(x):
     return None
