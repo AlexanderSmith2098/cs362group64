@@ -29,7 +29,7 @@ class TestCase(unittest.TestCase):
         input3a = 0
         input3b = 64
         expected3 = input3a / input3b
-        expected4 = input3b / input3a
+        expected4 = False
         self.assertEqual(expected1, calculator.division(input1a,input1b))
         self.assertEqual(expected2, calculator.division(input2a,input2b))
         self.assertEqual(expected3, calculator.division(input3a,input3b))
@@ -37,12 +37,12 @@ class TestCase(unittest.TestCase):
         
     def testsquare_root(self):
         input1 = 99999999999
-        expected1 = sqrt(input1)
+        expected1 = math.sqrt(input1)
         input2 = 0.0000000001
-        expected2 = sqrt(input2)
+        expected2 = math.sqrt(input2)
         input3 = 64
-        expected3 = sqrt(input3)
-        expected4 = sqrt(input3 * -1)
+        expected3 = math.sqrt(input3)
+        expected4 = False
         self.assertEqual(expected1, calculator.square_root(input1))
         self.assertEqual(expected2, calculator.square_root(input2))
         self.assertEqual(expected3, calculator.square_root(input3))
