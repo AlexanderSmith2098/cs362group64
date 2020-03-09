@@ -6,6 +6,15 @@ def division(x,y):
     
 def square_root(x):
     return None
+
+def squareNum(x):
+    return None
+
+def multInverse(x):
+    return None
+
+def fact(x):
+    return None
     
 def absolute(x):
     return None
