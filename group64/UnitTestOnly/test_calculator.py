@@ -1,6 +1,7 @@
 import unittest
 import calculator
 import math
+from decimal import *
 
 #Must work on whole numbers, fractions, negative, large, and small
 
@@ -52,7 +53,7 @@ class TestCase(unittest.TestCase):
         input_zero = 0
         input_positive = 500
         input_negative = -495
-        input_fraction = .49
+        input_fraction = .7
         input_posBoundary = 9999999999999999
         posExpected = 9999999999999999 * 9999999999999999
         input_negBoundary = -9999999999999999
@@ -62,16 +63,16 @@ class TestCase(unittest.TestCase):
         self.assertEqual(0, calculator.squareNum(input_zero))
         self.assertEqual(250000, calculator.squareNum(input_positive))
         self.assertEqual(245025, calculator.squareNum(input_negative))
-        self.assertEqual(.2401, calculator.squareNum(input_fraction))
+        self.assertAlmostEqual(0.49, calculator.squareNum(input_fraction))
         self.assertEqual(posExpected, calculator.squareNum(input_posBoundary))
         self.assertEqual(negExpected, calculator.squareNum(input_negBoundary))
-        self.assertEqual("Error, input too large", calculator.squareNum(input_beyondBoundary))
+        self.assertEqual("Error, number of digits in input too large", calculator.squareNum(input_beyondBoundary))
         self.assertEqual("Error, only numerical input allowed", calculator.squareNum(input_badInput))
 
     def test_multInverse(self):
         input_positive = 500
         input_negative = -495
-        negExpected = -0.0020
+        negExpected = -0.0020202
         input_fraction = .40
         input_zero = 0
         input_atBoundary = 9999999999999999
@@ -83,28 +84,27 @@ class TestCase(unittest.TestCase):
         self.assertEqual(2.5, calculator.multInverse(input_fraction))
         self.assertEqual("Error, division by 0", calculator.multInverse(input_zero))
         self.assertEqual(boundaryExpected, calculator.multInverse(input_atBoundary))
-        self.assertEqual("Error, input too large", calculator.multInverse(input_beyondBoundary))
+        self.assertEqual("Error, number of digits in input too large", calculator.multInverse(input_beyondBoundary))
         self.assertEqual("Error, only numerical input allowed", calculator.multInverse(input_badInput))
 
     def test_fact(self):
+        input0 = 0
+        input1 = 12
+        input2 = 30
+        input3 = 100
         input_fraction = 0.34
-        expectedfractionFact = 0.8922
+        expectedfractionFact = 0.8922155
         input_negative = -495
-        input_beyondBoundary = 4000
+        input_beyondBoundary = 101
         input_badInput = "dfjaldkf"
-
-        for x in range(3249):
-            expectedFact = math.gamma(x + 1)
-            self.assertEqual(expectedFact, calculator.fact(x))
-
+        self.assertEqual(1, calculator.fact(input0))
+        self.assertEqual(479001600, calculator.fact(input1))
+        self.assertEqual(265252859812191058636308480000000, calculator.fact(input2))
+        self.assertEqual(math.factorial(100), calculator.fact(input3))
         self.assertAlmostEqual(expectedfractionFact, calculator.fact(input_fraction))
         self.assertEqual("Non-negative numbers only", calculator.fact(input_negative))
         self.assertEqual("Overflow", calculator.fact(input_beyondBoundary))
         self.assertEqual("Error, only numerical input allowed", calculator.fact(input_badInput))
-
-
-
-
 
     def testabs(self):
         input1 = 99999999999
