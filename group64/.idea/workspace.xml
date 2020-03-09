@@ -23,19 +23,34 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_calculator.TestCase.test_multInverse">
-    <configuration name="Unittests for test_calculator.TestCase.test_fact" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_calculator.TestCase.test_fact (1)">
+    <configuration name="Unittests for test_calculator.TestCase.test_fact (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="group64" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnitTestOnly" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnitTestAndCode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_calculator.TestCase.test_fact&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_calculator.TestCase.test_multInverse (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="group64" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnitTestAndCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_calculator.TestCase.test_multInverse&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -54,26 +69,43 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_calculator.TestCase.testsquareNum" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_calculator.TestCase.test_squareNum" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="group64" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnitTestOnly" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnitTestAndCode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_calculator.TestCase.testsquareNum&quot;" />
+      <option name="_new_target" value="&quot;test_calculator.TestCase.test_squareNum&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_calculator.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="group64" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnitTestAndCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/UnitTestAndCode/test_calculator.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_calculator.TestCase.test_fact (1)" />
+        <item itemvalue="Python tests.Unittests for test_calculator.TestCase.test_multInverse (1)" />
+        <item itemvalue="Python tests.Unittests for test_calculator.TestCase.test_squareNum" />
+        <item itemvalue="Python tests.Unittests in test_calculator.py" />
         <item itemvalue="Python tests.Unittests for test_calculator.TestCase.test_multInverse" />
-        <item itemvalue="Python tests.Unittests for test_calculator.TestCase.test_fact" />
-        <item itemvalue="Python tests.Unittests for test_calculator.TestCase.testsquareNum" />
       </list>
     </recent_temporary>
   </component>
@@ -87,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583764994538</updated>
-      <workItem from="1583764996257" duration="4685000" />
+      <workItem from="1583764996257" duration="15202000" />
     </task>
     <servers />
   </component>
@@ -104,22 +136,42 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="8" key="#Notifications/0.0.1280.689@0.0.1280.689" timestamp="1583765937189" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1583768041157">
+    <state x="93" y="93" width="1095" height="504" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583772925079">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1583768041157" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1583768041157">
+    <state x="93" y="93" width="1095" height="504" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.689@0.0.1280.689" timestamp="1583772925079" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1583781690654">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1583768041157" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1583768041157">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1583781690654" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1583781690654">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1583768041157" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1583768041157">
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1583781690654" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1583781690654">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1583768041157" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1583781690654" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1583781690654">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1583781690654" />
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1583777526786">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1583777526786" />
+    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1583777526786">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1583777526786" />
+    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1583777526786">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1583777526786" />
+    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1583777526786">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1583777526786" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1583765947503">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -127,7 +179,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/group64$Unittests_for_test_calculator_TestCase_test_multInverse.coverage" NAME="Unittests for test_calculator.TestCase.test_multInverse Coverage Results" MODIFIED="1583768041138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnitTestOnly" />
+    <SUITE FILE_PATH="coverage/group64$Unittests_for_test_calculator_TestCase_test_squareNum.coverage" NAME="Unittests for test_calculator.TestCase.test_squareNum Coverage Results" MODIFIED="1583781683377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnitTestAndCode" />
+    <SUITE FILE_PATH="coverage/group64$Unittests_for_test_calculator_TestCase_test_fact__1_.coverage" NAME="Unittests for test_calculator.TestCase.test_fact (1) Coverage Results" MODIFIED="1583781690639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnitTestAndCode" />
     <SUITE FILE_PATH="coverage/group64$Unittests_for_test_calculator_TestCase_testsquareNum.coverage" NAME="Unittests for test_calculator.TestCase.testsquareNum Coverage Results" MODIFIED="1583765808356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnitTestOnly" />
+    <SUITE FILE_PATH="coverage/group64$Unittests_for_test_calculator_TestCase_test_multInverse__1_.coverage" NAME="Unittests for test_calculator.TestCase.test_multInverse (1) Coverage Results" MODIFIED="1583781687454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnitTestAndCode" />
     <SUITE FILE_PATH="coverage/group64$Unittests_for_test_calculator_TestCase_test_fact.coverage" NAME="Unittests for test_calculator.TestCase.test_fact Coverage Results" MODIFIED="1583768024455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnitTestOnly" />
+    <SUITE FILE_PATH="coverage/group64$Unittests_in_test_calculator_py.coverage" NAME="Unittests in test_calculator.py Coverage Results" MODIFIED="1583774518013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnitTestAndCode" />
   </component>
 </project>
